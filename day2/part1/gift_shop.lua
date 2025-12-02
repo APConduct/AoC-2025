@@ -35,7 +35,6 @@ for _, range in ipairs(ranges) do
     table.insert(bounds, { tonumber(min_max[1]), tonumber(min_max[2]) })
 end
 
-
 local invalid_ids = {}
 for _, bound in ipairs(bounds) do
     for i = bound[1], bound[2] do
